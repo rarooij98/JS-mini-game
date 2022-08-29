@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Eindopdracht - Robin van Rooij</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="hptext">
+            <p>HP: 200</p>
+            <p>HP: 200</p>
+        </div>
+
+        <div class="hp">
+            <canvas class="canvas1">
+                <p>HP balk player 1</p>
+            </canvas>
+
+            <h2></h2>
+            <h2></h2>
+
+            <canvas class="canvas2">
+                <p>HP balk player 2</p>
+            </canvas>
+        </div>
+
+        <img class="heal1" src="./images/healing.png" alt="healing potion">
+        <img class="heal2" src="./images/healing.png" alt="healing potion">
+        <img class="heal3" src="./images/healing.png" alt="healing potion">
+        <!--bron: https://genshin-impact.fandom.com/wiki/Frostshield_Potion-->
+
+        <div>
+            <div class="icons">
+                <img class="icoon1" src="./images/att1.png" alt="foreign ironwind icoon">
+                <img class="icoon2" src="./images/att2.png" alt="palm vortex icoon">
+                <img class="icoon3" src="./images/att3.png" alt="gust surge icoon">
+                <!--bron:https://genshin-impact.fandom.com/wiki/Traveler-->
+            </div>
+            <div class="buttons">
+                <button class="buttonOne">Foreign Ironwind</button>
+                <button class="buttonTwo">Palm Vortex</button>
+                <button class="buttonThree">Gust Surge</button>
+            </div>
+
+            <div class="overlay">
+                <p></p>
+                <button>Rematch</button>
+            </div>
+
+            <div class="overlay2">
+                <p>Kies een moeilijkheid om te starten</p>
+
+                <form action="">
+                    <div>
+                        <input type="radio" name="moeilijkheid" value="makkelijk">
+                        <label for="makkelijk">Makkelijk<img src="./images/makkelijk.jpg" alt="blije paimon"></label>
+                    </div>
+                    <div>
+                        <input type="radio" name="moeilijkheid" value="default" checked>
+                        <label for="default">Default<img src="./images/default.jpg" alt="actie paimon"></label>
+                    </div>
+                    <div>
+                        <input type="radio" name="moeilijkheid" value="moeilijk">
+                        <label for="moeilijk">Moeilijk<img src="./images/moeilijk.jpg" alt="bange paimon"></label>
+                    </div>
+                    <!--bron:https://www.etsy.com/nl/listing/912295483/paimon-genshin-impact-emote-pack-voor-->
+                </form>
+
+                <button>start het spel</button>
+            </div>
+
+            <img src="./images/traveler.png" alt="img player 1">
+            <!--bron:https://genshin-impact.fandom.com/wiki/Traveler-->
+            <img class="player2" src="./images/kaeya.png" alt="img player 2">
+            <!--bron:https://genshin-impact.fandom.com/wiki/Kaeya-->
+        </div>
+
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

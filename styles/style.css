@@ -1,0 +1,198 @@
+/*body*/
+body {
+    margin: 2em 0 0 0;
+    overflow: hidden;
+    background-color: rgb(236, 255, 254);
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+}
+
+.damage1 {
+    background-image: url(../images/damage1.png);
+}
+
+.damage2 {
+    background-image: url(../images/damage2.png);
+}
+
+/*form*/
+form {
+    display: flex;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+label img {
+    max-height: 4em;
+}
+
+/*algemeen*/
+h2 {
+    margin: 0;
+    margin-left: 4em;
+    color: rgb(0, 255, 13);
+}
+
+h2:nth-of-type(2) {
+    margin-left: 10em;
+    color: rgb(30, 255, 0);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    margin: 0em 2em;
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+}
+
+canvas {
+    margin-left: 2em;
+}
+
+img {
+    max-height: 25em;
+}
+
+.player2 {
+    max-height: 22em;
+    margin-left: 14em;
+    margin-top: 2em;
+}
+
+.hp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hptext {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hptext p:nth-of-type(2) {
+    margin-right: 34em;
+}
+
+button {
+    background-color: rgb(209, 237, 233);
+    border-color: rgb(0, 191, 165);
+    margin: 1em 2em;
+    width: 10em;
+}
+
+.buttons img {
+    max-height: 1.5em;
+    margin-top: 0.75em;
+    margin-left: 0.25em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 2.5em;
+    margin: 2em 10em 12em 0em;
+}
+
+.uit {
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(192, 192, 192);
+    color: rgb(182, 182, 182);
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 2.5em;
+    margin: 2.5em 0em 12em 2em;
+}
+
+.heal1 {
+    margin-left: 2em;
+}
+
+.heal1,
+.heal2,
+.heal3 {
+    max-width: 4em;
+    margin-top: 1em;
+}
+
+/*startscherm en eindscherm*/
+.overlay {
+    position: fixed;
+    display: none;
+    width: 50%;
+    height: 50%;
+    margin-left: 20em;
+    background-image: url(../images/lumine3.gif);
+    background-size: 100%;
+}
+
+.overlay2 {
+    position: fixed;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: 20em;
+    background-color: rgb(255, 255, 255);
+}
+
+.hidden {
+    display: none;
+}
+
+.zichtbaar {
+    position: fixed;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: 20em;
+    background-color: rgb(255, 255, 255);
+}
+
+.overlay p {
+    color: black;
+    font-size: 30px;
+    margin: 2em 2em 2em 11em;
+}
+
+.overlay2 p {
+    color: rgb(0, 81, 134);
+    font-size: 24px;
+    margin: 2em 2em 2em 8em;
+}
+
+.overlay button {
+    background-color: rgb(209, 237, 233);
+    border-color: rgb(0, 191, 165);
+    display: block;
+    margin: auto;
+    margin-top: 10em;
+    width: 10em;
+    font-size: large;
+}
+
+.overlay2 button {
+    background-color: rgb(209, 237, 233);
+    border-color: rgb(0, 191, 165);
+    display: block;
+    margin: auto;
+    margin-top: 4em;
+    width: 10em;
+    font-size: large;
+}
+
+.overlay2 img {
+    height: 18em;
+    margin-right: 2.5em;
+    margin-left: 2.5em;
+}
